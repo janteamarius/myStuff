@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello world!");
+            Person p1 = new Person();
+            p1.Name = "myname";
+            System.Console.WriteLine("Hello from branch 2!" + p1.Name);
         }
     }
 }
