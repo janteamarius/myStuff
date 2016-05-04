@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace MyStuffApp1
+﻿namespace MyStuffApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi y'all!");
+            System.Console.WriteLine("Hello world!");
         }
     }
 }
