@@ -6,7 +6,7 @@ namespace MyStuffApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            Console.WriteLine("Hi y'all!");
         }
     }
 }
