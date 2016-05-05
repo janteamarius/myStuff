@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person();
-            p1.Name = "myname";
-            System.Console.WriteLine("Hello from branch 2!" + p1.Name);
+            Person p1 = new Person { FirstName = "Andrei", LastName = "Andrei" };
+            System.Console.WriteLine("Hello world from home location!");
+            System.Console.WriteLine($"{p1.LastName} {p1.FirstName}");
             System.Console.WriteLine("Hello from branch 1!");
         }
     }
